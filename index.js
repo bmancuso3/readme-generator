@@ -1,7 +1,7 @@
 // Imported packages and files
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown')
+const genMarkdown = require('./utils/generateMarkdown')
 // const import = require('./utils/generateMarkdown.js');
 
 // Question array
@@ -64,9 +64,10 @@ const questions = [
 // needs to import the generatemarkdown file and **call the functions within**
 function writeToFile(fileName, answers) {
     console.log('writetofile', answers);
-    const markdownContent = generateMarkdown(answers);
+    const markdownContent = genMarkdown.generateMarkdown(answers);
     console.log('markdown', markdownContent);
-    // fs.writeFile('genREADME.md', JSON.stringify(answers), (err) =>
+
+    // fs.writeFile(fileName, JSON.stringify(answers), (err) =>
     // err ? console.log(err) : console.log('Successfully generated genREADME.md!')
     // );
 };
