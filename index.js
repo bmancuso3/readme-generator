@@ -40,7 +40,7 @@ const questions = [
     //     type: 'list',
     //     message: 'Please choose a license:',
     //     name: 'license',
-    //     choices: ['license1', 'license2', 'license3', 'license4'],
+    //     choices: ['None', 'MIT', 'Apache 2.0', 'Mozilla', 'GNU'],
     // },
     // {
     //     type: 'input',
@@ -67,9 +67,10 @@ function writeToFile(fileName, answers) {
     const markdownContent = genMarkdown.generateMarkdown(answers);
     console.log('markdown', markdownContent);
 
-    // fs.writeFile(fileName, JSON.stringify(answers), (err) =>
-    // err ? console.log(err) : console.log('Successfully generated genREADME.md!')
-    // );
+    // JSON.stringify(answers)
+    fs.writeFile(fileName, markdownContent, (err) =>
+    err ? console.log(err) : console.log('Successfully generated genREADME.md!')
+    );
 };
 
 // Function to initialize the questions for user
