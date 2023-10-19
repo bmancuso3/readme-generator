@@ -36,7 +36,11 @@ THEN I am taken to the corresponding section of the README
 
 ## References
 1. UTA Bootcamp curriculum, instructor examples and student solved examples
-2. <a href='https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki'>Stack Overflow</a> - Creating a Table of Contents for an md file
+2. Creating a Table of Contents for an md file - <a href='https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki'>Stack Overflow</a>
+3. <a href='https://en.wikipedia.org/wiki/MIT_License'>MIT License</a>
+4. <a href='http://www.apache.org/licenses/LICENSE-2.0'>Apache 2.0 License</a>
+5. <a href='https://choosealicense.com/licenses/mpl-2.0/'>Mozilla License</a>
+6. <a href='https://www.gnu.org/licenses/gpl-3.0.txt'>GNU License</a>
 
 ## <a href="https://github.com/bmancuso3/readme-generator">GitHub Repository</a>
 
