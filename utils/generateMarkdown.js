@@ -39,7 +39,13 @@ function generateMarkdown(answers) {
     ${answers.description}
 
 ## Table of Contents
-    
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license-used)
+* [Contact Info](#contact-info)
+* [Questions](#questions)
 
 ## Installation
     ${answers.instructions}
@@ -58,8 +64,9 @@ function generateMarkdown(answers) {
 
 ## Contact Info
 Please refer any questions through the contact information below:
-    ${answers.github}
-    ${answers.email}
+
+    Github Username: ${answers.github}
+    Email: ${answers.email}
 
 ## Questions
     ${answers.contact}

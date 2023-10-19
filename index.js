@@ -2,7 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const genMarkdown = require('./utils/generateMarkdown')
-// const import = require('./utils/generateMarkdown.js');
 
 // Question array
 const questions = [
@@ -59,15 +58,13 @@ const questions = [
     // },
 ];
 
-// TODO: Create a function to write README file
-// call in fs to create the file and place the data inside
-// needs to import the generatemarkdown file and **call the functions within**
+// Function to import generateMarkdown and run answers through it
 function writeToFile(fileName, answers) {
-    console.log('writetofile', answers);
+    // console.log('writetofile', answers);
     const markdownContent = genMarkdown.generateMarkdown(answers);
-    console.log('markdown', markdownContent);
+    // console.log('markdown', markdownContent);
 
-    // JSON.stringify(answers)
+// Writes markdowncontent to file and logs necessary result
     fs.writeFile(fileName, markdownContent, (err) =>
     err ? console.log(err) : console.log('Successfully generated genREADME.md!')
     );
@@ -78,14 +75,10 @@ function init() {
     inquirer
         .prompt (questions)
         .then ((answers) => {
-            console.log('init', answers);
+            // console.log('init', answers);
             writeToFile('genREADME.md', answers);
         });
 };
 
 // Function call to initialize app
 init();
-
-
-// path
-// init, write to file, gen markdown, render license section -> badge & link

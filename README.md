@@ -36,6 +36,7 @@ THEN I am taken to the corresponding section of the README
 
 ## References
 1. UTA Bootcamp curriculum, instructor examples and student solved examples
+2. <a href='https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki'>Stack Overflow</a> - Creating a Table of Contents for an md file
 
 ## <a href="https://github.com/bmancuso3/readme-generator">GitHub Repository</a>
 
