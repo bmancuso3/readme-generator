@@ -35,12 +35,12 @@ const questions = [
     //     message: 'Input your test instructions:',
     //     name: 'tests',
     // },
-    // {
-    //     type: 'list',
-    //     message: 'Please choose a license:',
-    //     name: 'license',
-    //     choices: ['None', 'MIT', 'Apache 2.0', 'Mozilla', 'GNU'],
-    // },
+    {
+        type: 'list',
+        message: 'Please choose a license:',
+        name: 'license',
+        choices: ['None', 'MIT', 'Apache 2.0', 'Mozilla', 'GNU'],
+    },
     // {
     //     type: 'input',
     //     message: 'Enter your github username:',

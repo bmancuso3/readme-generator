@@ -1,12 +1,21 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  // return URL string to license badge link (somewhere in github documentation)
+// Function to render the proper license badge under the title
+function renderLicenseBadge(answers) {
+  if(answers.license === 'MIT') {
+    return "<img src='https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge'>"
+  }
+  else if(answers.license === 'Apache 2.0') {
+    return "<img src='https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge'>"
+  }
+  else if(answers.license === 'Mozilla') {
+    return "<img src='https://img.shields.io/badge/License-MPL_2.0-FF7139.svg?style=for-the-badge'>"
+  }
+  else if(answers.license === 'GNU') {
+    return "<img src='https://img.shields.io/badge/License-GPL_3-blue.svg?style=for-the-badge'>"
+  }
+  else {
+    return ''
+  }
 }
-// MIT [Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-// Apache 2.0 [Badge License]: https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge
-// Mozilla [Badge License]: https://img.shields.io/badge/License-MPL_2.0-FF7139.svg?style=for-the-badge
-// GNU [Badge License]: https://img.shields.io/badge/License-GPL_3-blue.svg?style=for-the-badge
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -33,7 +42,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(answers) {
   return `
 # ${answers.title}
-  ${renderLicenseBadge(answers.license)}
+  ${renderLicenseBadge(answers)}
 
 ## Description
     ${answers.description}
@@ -60,7 +69,7 @@ function generateMarkdown(answers) {
     ${answers.tests}
 
 ## License Used
-    ${renderLicenseSection(answers.license)}
+    ${renderLicenseSection(answers)}
 
 ## Contact Info
 Please refer any questions through the contact information below:
