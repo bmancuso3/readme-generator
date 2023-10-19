@@ -90,8 +90,9 @@ function generateMarkdown(answers) {
 ## Contact Info
 Please refer any questions through the contact information below:
 
-    Github Username: ${answers.github}
-    Email: ${answers.email}
+Github Username: <a href='https://github.com/${answers.github}'>${answers.github}</a>
+
+Email: ${answers.email}
 
 ## Questions
     ${answers.contact}
