@@ -1,6 +1,6 @@
 
-# argg
-  
+# great
+  <img src='https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge'>
 
 ## Description
     undefined
@@ -10,9 +10,9 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [License](#license-used)
 * [Contact Info](#contact-info)
 * [Questions](#questions)
+* [License](#license-used)
 
 ## Installation
     undefined
@@ -26,9 +26,6 @@
 ## Tests
     undefined
 
-## License Used
-    undefined
-
 ## Contact Info
 Please refer any questions through the contact information below:
 
@@ -37,3 +34,6 @@ Please refer any questions through the contact information below:
 
 ## Questions
     undefined
+
+## License Used
+undefined
