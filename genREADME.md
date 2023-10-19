@@ -1,9 +1,9 @@
 
-# glad
-  <img src='https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge'>
+# Cool Project
+  <img src='https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge'>
 
 ## Description
-    undefined
+    It's a dope project
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,27 +15,27 @@
 * [License](#license-used)
 
 ## Installation
-    undefined
+    Install it ASAP
 
 ## Usage
-    undefined
+    Nope, go for it
 
 ## Contributing
-    undefined
+    Plz contribute
 
 ## Tests
-    undefined
+    you'll have to do the testing
 
 ## Contact Info
 Please refer any questions through the contact information below:
 
-    Github Username: undefined
-    Email: undefined
+    Github Username: bmancuso3
+    Email: mancuso.b3
 
 ## Questions
-    undefined
+    N/A, just holler
 
 ## License Used
-License Link: https://en.wikipedia.org/wiki/MIT_License
+License Link: http://www.apache.org/licenses/LICENSE-2.0
 
-    MIT LICENSE: Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    APACHE 2.0 LICENSE: Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at the link above. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
