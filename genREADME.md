@@ -1,9 +1,9 @@
 
-# asd
-  
+# Here is my Title
+  <img src='https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge'>
 
 ## Description
-    a
+    challenge 9 for UTA coding bootcamp
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,28 +15,28 @@
 * [License](#license-used)
 
 ## Installation
-    a
+    Install and have fun with it
 
 ## Usage
-    a
+    No usage information, follow the prompts and generate a readme
 
 ## Contributing
-    a
+    Feel free to contribute
 
 ## Tests
-    a
+    You'll have to test it...
 
 ## Contact Info
 Please refer any questions through the contact information below:
 
 Github Username: <a href='https://github.com/bmancuso3'>bmancuso3</a>
 
-Email: ss
+Email: bmancuso
 
 ## Questions
-    a
+    N/A, phone number, etc...
 
 ## License Used
-License Link: None
+License Link: http://www.apache.org/licenses/LICENSE-2.0
 
-    No license has been applied to this project.
+    APACHE 2.0 LICENSE: Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at the link above. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
